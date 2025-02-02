@@ -1,0 +1,81 @@
+# General OS Files
+.DS_Store
+Thumbs.db
+.vs/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Node.js (Next.js Frontend)
+GitHubDashboard.UI/github-dashboard/node_modules
+GitHubDashboard.UI/github-dashboard/.next
+GitHubDashboard.UI/github-dashboard/.turbo
+GitHubDashboard.UI/github-dashboard/.vercel
+GitHubDashboard.UI/github-dashboard/out
+GitHubDashboard.UI/github-dashboard/.eslintcache
+
+# Next.js Build Artifacts
+GitHubDashboard.UI/github-dashboard/.next/cache
+GitHubDashboard.UI/github-dashboard/.next/static
+
+# .NET Core API
+GitHubDashboard.API/bin/
+GitHubDashboard.API/obj/
+GitHubDashboard.API/.vs/
+GitHubDashboard.API/*.user
+
+# Entity Framework (Migrations & Database Files)
+GitHubDashboard.API/appsettings.*.json
+
+# Infrastructure (.NET, Redis, Database)
+GitHubDashboard.Infrastructure/bin/
+GitHubDashboard.Infrastructure/obj/
+
+# Kubernetes & Docker
+GitHubDashboard.DevOps/kubernetes/*.yaml~
+GitHubDashboard.DevOps/kubernetes/*.log
+GitHubDashboard.DevOps/kubernetes/secrets.yaml
+
+# Docker Compose
+GitHubDashboard.DevOps/docker-compose.override.yml
+
+# Terraform (AWS Infrastructure)
+GitHubDashboard.DevOps/terraform/.terraform/
+GitHubDashboard.DevOps/terraform/terraform.tfstate
+GitHubDashboard.DevOps/terraform/terraform.tfstate.backup
+GitHubDashboard.DevOps/terraform/.terraform.lock.hcl
+
+# Secrets & Credentials (DO NOT COMMIT)
+.env
+*.env.local
+*.env.production
+GitHubDashboard.API/appsettings.json
+GitHubDashboard.UI/github-dashboard/.env.local
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+
+# Miscellaneous
+node_modules/
+package-lock.json
+yarn.lock
+
+# Testing
+/coverage
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts

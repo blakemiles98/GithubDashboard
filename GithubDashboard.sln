@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GithubDashboard.API", "GithubDashboard.API\GithubDashboard.API.csproj", "{33A5BE18-2FBA-B7D1-79F1-54DA5909B7FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubDashboard.Infrastructure", "GitHubDashboard.Infrastructure\GitHubDashboard.Infrastructure.csproj", "{3147F635-A5EA-446E-85C3-DD46B6AC6CF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33A5BE18-2FBA-B7D1-79F1-54DA5909B7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A5BE18-2FBA-B7D1-79F1-54DA5909B7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A5BE18-2FBA-B7D1-79F1-54DA5909B7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A5BE18-2FBA-B7D1-79F1-54DA5909B7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3147F635-A5EA-446E-85C3-DD46B6AC6CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3147F635-A5EA-446E-85C3-DD46B6AC6CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3147F635-A5EA-446E-85C3-DD46B6AC6CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3147F635-A5EA-446E-85C3-DD46B6AC6CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10613E3A-F9C1-4A93-8B05-EFC4C1D05A58}
+	EndGlobalSection
+EndGlobal
